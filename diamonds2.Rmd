@@ -1,0 +1,16 @@
+---
+title: "diamonds2"
+author: "Taylor Gordon"
+date: "2/16/2022"
+output: word_document
+---
+
+``````{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
+
+
+
